@@ -1,7 +1,12 @@
 ﻿namespace VstsModuleManagementCore.Extensions
 {
-    public class PSCmdletExtensions
+    using System.Management.Automation;
+
+    public static class PSCmdletExtensions
     {
-        
+        public static void SaveModuleConfiguration(this PSCmdlet cmdlet)
+        {
+
+        }
     }
 }
