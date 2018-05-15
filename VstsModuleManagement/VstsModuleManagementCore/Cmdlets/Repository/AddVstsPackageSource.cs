@@ -1,6 +1,9 @@
 ﻿namespace VstsModuleManagementCore.Cmdlets
 {
+    using System;
     using System.Management.Automation;
+
+    using VstsModuleManagementCore.Extensions;
 
     [Cmdlet("Get", "VstsPackageSource")]
     public class AddVstsPackageSource : PSCmdlet
@@ -20,6 +23,14 @@
 
             string providerName = $"{this.AccountName}-{this.PackageRepositoryName}-VstsModules";
 
+            var settings = this.GetModuleSettings();
+
+            if (settings.KnownVstsProviders.ContainsKey(providerName))
+            {
+                this.WriteError(new ErrorRecord(new PSInvalidOperationException("Object with the provided configured name already exists"), $"ProviderAlreadyExistsException,{this.GetType().FullName}", ErrorCategory.WriteError, providerName));
+                return;
+            }
+
             PowerShell ps = PowerShell.Create();
 
             ps.AddCommand("Register-PackageSource")
@@ -30,6 +41,9 @@
               .AddParameter("Trusted", this.IsTrusted);
 
             this.WriteObject(ps.Invoke(), true);
+
+            settings.KnownVstsProviders.Add(providerName, string.Empty);
+            this.SaveModuleConfiguration(settings);
         }
     }
 }

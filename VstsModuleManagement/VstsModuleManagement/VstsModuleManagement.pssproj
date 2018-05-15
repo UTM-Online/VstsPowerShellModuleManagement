@@ -31,16 +31,8 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Helpers\VstsModuleManagement.Helpers.LoadModuleSettings.ps1" />
-    <Compile Include="Helpers\VstsModuleManagement.Helpers.RepairModuleSettings.ps1" />
-    <Compile Include="Objects\VstsModuleManagement.Objects.ModuleSettings.ps1" />
     <Compile Include="VstsModuleManagement.psd1" />
-    <Compile Include="VstsModuleManagement.psm1" />
     <Compile Include="VstsModuleManagement.StartUp.ps1" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Helpers\" />
-    <Folder Include="Objects\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="Build" />
