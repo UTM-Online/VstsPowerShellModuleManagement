@@ -1,5 +1,6 @@
 ﻿namespace VstsModuleManagementCore.Models
 {
+    using System;
     using System.Collections.Generic;
     using System.IO;
 
@@ -13,7 +14,7 @@
     {
         public ModuleSettings()
         {
-            this.KnownVstsProviders = new Dictionary<string, string>();
+            this.KnownVstsProviders = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase);
         }
 
         [JsonProperty]
@@ -28,6 +29,11 @@
             string serializedSettings = JsonConvert.SerializeObject(this);
 
             File.WriteAllText(filePath, serializedSettings);
+        }
+
+        internal void SaveSettings()
+        {
+            this.SaveSettings($"{ModuleRunTimeState.ModuleBasePath}\\ModuleSettings.json");
         }
 
         internal static ModuleSettings LoadSettings()

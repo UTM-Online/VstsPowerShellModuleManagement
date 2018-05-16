@@ -9,7 +9,7 @@
     using VstsModuleManagementCore.Models;
     using VstsModuleManagementCore.Utilities;
 
-    [Cmdlet("Get", "VstsCredential")]
+    [Cmdlet(VerbsCommon.Get, "VstsCredential")]
     public class GetVstsCredential : PSCmdlet
     {
         [Parameter]
@@ -23,7 +23,10 @@
 
         protected override void BeginProcessing()
         {
-            this.AccountName = this.AccountName.ToUpper();
+            if (!string.IsNullOrEmpty(this.AccountName))
+            {
+                this.AccountName = this.AccountName.ToUpper();
+            }
         }
 
         protected override void ProcessRecord()

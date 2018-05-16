@@ -29,16 +29,16 @@
         {
             if (reader.TokenType == JsonToken.StartArray)
             {
+                existingValue = existingValue == null ?
+                                    new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase)
+                                    : new Dictionary<string, string>(existingValue, StringComparer.OrdinalIgnoreCase);
+
+
                 JArray array = JArray.Load(reader);
 
                 List<KeyValuePair<string,string>> target = new List<KeyValuePair<string, string>>();
 
                 serializer.Populate(array.CreateReader(), target);
-
-                if (existingValue == null)
-                {
-                    existingValue = new Dictionary<string, string>();
-                }
 
                 foreach (var item in target)
                 {
@@ -51,7 +51,7 @@
                 return existingValue;
             }
 
-            return new Dictionary<string, string>();
+            return new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase);
         }
     }
 }

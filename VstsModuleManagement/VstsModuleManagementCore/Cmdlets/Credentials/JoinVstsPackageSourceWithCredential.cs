@@ -7,7 +7,7 @@
     using VstsModuleManagementCore.Resources;
     using VstsModuleManagementCore.Utilities;
 
-    [Cmdlet("Join", "VstsPackageSourceWithCredential")]
+    [Cmdlet(VerbsCommon.Join, "VstsPackageSourceWithCredential")]
     public class JoinVstsPackageSourceWithCredential : PSCmdlet
     {
         [Parameter]
@@ -18,7 +18,7 @@
 
         protected override void ProcessRecord()
         {
-            var settings = PSUtils.GetPSVariable<ModuleSettings>(ModuleVariables.ModuleSettings);
+            ModuleSettings settings = this.GetRunTimeModuleSettings();
 
             if (settings.KnownVstsProviders.ContainsKey(this.PackageSourceName))
             {
@@ -29,7 +29,7 @@
                 settings.KnownVstsProviders.Add(this.PackageSourceName, this.CredentialName);
             }
 
-            this.SaveModuleConfiguration(settings);
+            settings.SaveSettings();
         }
     }
 }

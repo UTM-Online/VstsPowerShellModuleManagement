@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-16"?>
-<DevTrackerData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SolutionTotalEditTime="PT1H36M19.2937032S" SolutionTotalViewTime="PT37M41.5320039S" SolutionTotalDebugTime="PT0S">
+<DevTrackerData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SolutionTotalEditTime="PT4H43M54.0682181S" SolutionTotalViewTime="PT1H57M19.4550555S" SolutionTotalDebugTime="PT3M24.1090349S">
   <FileVersion>
     <Major>1</Major>
     <Minor>0</Minor>
@@ -7,185 +7,43 @@
   <SolutionFolder>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement</SolutionFolder>
   <SessionTimeList />
   <LastSessionTimeList>
-    <DevTrackerDataItem ViewActiveTime="PT1M16.8035413S" EditActiveTime="PT9M53.081556S">
-      <ModifiedDate>2018-05-14T15:54:54.6930947-07:00</ModifiedDate>
-      <ModifiedBy>joirwi</ModifiedBy>
-      <EditedCount>1</EditedCount>
-      <ViewedCount>1</ViewedCount>
-      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\Cmdlets\AddVstsPackageSource.cs</Item>
-      <ItemType>ProjectItem</ItemType>
-      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\VstsModuleManagementCore.csproj</ProjectName>
-      <CreatedDate>2018-05-14T15:43:26.7573638-07:00</CreatedDate>
-      <ViewedBy>joirwi</ViewedBy>
-    </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT37.5080135S" EditActiveTime="PT0S">
+    <DevTrackerDataItem ViewActiveTime="PT13.02821S" EditActiveTime="PT0S">
       <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
       <EditedCount>0</EditedCount>
       <ViewedCount>1</ViewedCount>
-      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\Class1.cs</Item>
-      <ItemType>ProjectItem</ItemType>
-      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\VstsModuleManagementCore.csproj</ProjectName>
-      <CreatedDate>2018-05-14T15:40:47.7771103-07:00</CreatedDate>
+      <Item>Debug Mode</Item>
+      <ItemType>DebugModeItem</ItemType>
+      <ProjectName />
+      <CreatedDate>2018-05-16T11:00:04.882657-07:00</CreatedDate>
       <ViewedBy>joirwi</ViewedBy>
     </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT3.0045031S" EditActiveTime="PT16.7130142S">
-      <ModifiedDate>2018-05-14T11:19:43.4410616-07:00</ModifiedDate>
-      <ModifiedBy>joirwi</ModifiedBy>
-      <EditedCount>1</EditedCount>
-      <ViewedCount>1</ViewedCount>
-      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagement\Module.Config</Item>
-      <ItemType>ProjectItem</ItemType>
-      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagement\VstsModuleManagement.pssproj</ProjectName>
-      <CreatedDate>2018-05-14T11:19:23.7605251-07:00</CreatedDate>
-      <ViewedBy>joirwi</ViewedBy>
-    </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT2.0833943S" EditActiveTime="PT2M2.0671669S">
-      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
-      <EditedCount>1</EditedCount>
-      <ViewedCount>1</ViewedCount>
-      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagement\Module.json</Item>
-      <ItemType>ProjectItem</ItemType>
-      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagement\VstsModuleManagement.pssproj</ProjectName>
-      <CreatedDate>2018-05-14T11:19:56.3128493-07:00</CreatedDate>
-      <ViewedBy>joirwi</ViewedBy>
-    </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT5.0161666S" EditActiveTime="PT0S">
+    <DevTrackerDataItem ViewActiveTime="PT2M16.0083529S" EditActiveTime="PT0S">
       <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
       <EditedCount>0</EditedCount>
       <ViewedCount>1</ViewedCount>
-      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagement\Module.Settings</Item>
-      <ItemType>ProjectItem</ItemType>
-      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagement\VstsModuleManagement.pssproj</ProjectName>
-      <CreatedDate>2018-05-14T11:18:59.2238282-07:00</CreatedDate>
-      <ViewedBy>joirwi</ViewedBy>
-    </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT25.3094615S" EditActiveTime="PT1.8368711S">
-      <ModifiedDate>2018-05-14T11:43:37.5158324-07:00</ModifiedDate>
-      <ModifiedBy>joirwi</ModifiedBy>
-      <EditedCount>1</EditedCount>
-      <ViewedCount>1</ViewedCount>
-      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagement\ModuleSettings.json</Item>
-      <ItemType>ProjectItem</ItemType>
-      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagement\VstsModuleManagement.pssproj</ProjectName>
-      <CreatedDate>2018-05-14T11:43:27.0426045-07:00</CreatedDate>
-      <ViewedBy>joirwi</ViewedBy>
-    </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT42.632814S" EditActiveTime="PT30.8987656S">
-      <ModifiedDate>2018-05-14T15:55:20.4798543-07:00</ModifiedDate>
-      <ModifiedBy>joirwi</ModifiedBy>
-      <EditedCount>1</EditedCount>
-      <ViewedCount>1</ViewedCount>
-      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\Extentions\PSCmdletExtensions.cs</Item>
+      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\Cmdlets\Repository\GetVstsPackageSources.cs</Item>
       <ItemType>ProjectItem</ItemType>
       <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\VstsModuleManagementCore.csproj</ProjectName>
-      <CreatedDate>2018-05-14T15:55:20.0740931-07:00</CreatedDate>
+      <CreatedDate>2018-05-16T10:57:52.5892907-07:00</CreatedDate>
       <ViewedBy>joirwi</ViewedBy>
     </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT55.3774674S" EditActiveTime="PT44.2750083S">
-      <ModifiedDate>2018-05-14T15:58:17.8103742-07:00</ModifiedDate>
-      <ModifiedBy>joirwi</ModifiedBy>
-      <EditedCount>1</EditedCount>
-      <ViewedCount>1</ViewedCount>
-      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\Extensions\PSCmdletExtensions.cs</Item>
-      <ItemType>ProjectItem</ItemType>
-      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\VstsModuleManagementCore.csproj</ProjectName>
-      <CreatedDate>2018-05-14T15:56:33.6076718-07:00</CreatedDate>
-      <ViewedBy>joirwi</ViewedBy>
-    </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT13.2000665S" EditActiveTime="PT5M5.2821295S">
-      <ModifiedDate>2018-05-14T15:01:13.455523-07:00</ModifiedDate>
-      <ModifiedBy>joirwi</ModifiedBy>
-      <EditedCount>1</EditedCount>
-      <ViewedCount>1</ViewedCount>
-      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagement\Helpers\VstsModuleManagement.Helpers.LoadModuleSettings.ps1</Item>
-      <ItemType>ProjectItem</ItemType>
-      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagement\VstsModuleManagement.pssproj</ProjectName>
-      <CreatedDate>2018-05-14T14:55:22.8399348-07:00</CreatedDate>
-      <ViewedBy>joirwi</ViewedBy>
-    </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT4M16.0833918S" EditActiveTime="PT11M11.2587236S">
-      <ModifiedDate>2018-05-14T14:49:58.7862316-07:00</ModifiedDate>
-      <ModifiedBy>joirwi</ModifiedBy>
-      <EditedCount>1</EditedCount>
-      <ViewedCount>1</ViewedCount>
-      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagement\Helpers\VstsModuleManagement.Helpers.RepairModuleSettings.ps1</Item>
-      <ItemType>ProjectItem</ItemType>
-      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagement\VstsModuleManagement.pssproj</ProjectName>
-      <CreatedDate>2018-05-14T12:58:20.1720052-07:00</CreatedDate>
-      <ViewedBy>joirwi</ViewedBy>
-    </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT35.2803927S" EditActiveTime="PT1M41.8894716S">
-      <ModifiedDate>2018-05-14T12:26:45.0950924-07:00</ModifiedDate>
-      <ModifiedBy>joirwi</ModifiedBy>
-      <EditedCount>1</EditedCount>
-      <ViewedCount>1</ViewedCount>
-      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagement\Objects\VstsModuleManagement.Objects.KnownProviders.ps1</Item>
-      <ItemType>ProjectItem</ItemType>
-      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagement\VstsModuleManagement.pssproj</ProjectName>
-      <CreatedDate>2018-05-14T12:19:13.2266808-07:00</CreatedDate>
-      <ViewedBy>joirwi</ViewedBy>
-    </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT56.7985177S" EditActiveTime="PT1M29.9524401S">
-      <ModifiedDate>2018-05-14T12:44:20.830566-07:00</ModifiedDate>
-      <ModifiedBy>joirwi</ModifiedBy>
-      <EditedCount>1</EditedCount>
-      <ViewedCount>1</ViewedCount>
-      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagement\Objects\VstsModuleManagement.Objects.ModuleSettings.ps1</Item>
-      <ItemType>ProjectItem</ItemType>
-      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagement\VstsModuleManagement.pssproj</ProjectName>
-      <CreatedDate>2018-05-14T12:22:05.7833045-07:00</CreatedDate>
-      <ViewedBy>joirwi</ViewedBy>
-    </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT2M57.1633867S" EditActiveTime="PT2M58.2977639S">
-      <ModifiedDate>2018-05-14T14:36:17.0212318-07:00</ModifiedDate>
-      <ModifiedBy>joirwi</ModifiedBy>
-      <EditedCount>1</EditedCount>
-      <ViewedCount>1</ViewedCount>
-      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagement\VstsModuleManagement.psd1</Item>
-      <ItemType>ProjectItem</ItemType>
-      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagement\VstsModuleManagement.pssproj</ProjectName>
-      <CreatedDate>2018-05-14T10:40:03.4201755-07:00</CreatedDate>
-      <ViewedBy>joirwi</ViewedBy>
-    </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT16M39.3533381S" EditActiveTime="PT52M55.043803S">
-      <ModifiedDate>2018-05-14T15:15:29.9688411-07:00</ModifiedDate>
-      <ModifiedBy>joirwi</ModifiedBy>
-      <EditedCount>1</EditedCount>
-      <ViewedCount>1</ViewedCount>
-      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagement\VstsModuleManagement.psm1</Item>
-      <ItemType>ProjectItem</ItemType>
-      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagement\VstsModuleManagement.pssproj</ProjectName>
-      <CreatedDate>2018-05-14T10:39:48.3790797-07:00</CreatedDate>
-      <ViewedBy>joirwi</ViewedBy>
-    </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT6M34.7312773S" EditActiveTime="PT7M33.9867239S">
-      <ModifiedDate>2018-05-14T15:02:06.7193935-07:00</ModifiedDate>
-      <ModifiedBy>joirwi</ModifiedBy>
-      <EditedCount>1</EditedCount>
-      <ViewedCount>1</ViewedCount>
-      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagement\VstsModuleManagement.StartUp.ps1</Item>
-      <ItemType>ProjectItem</ItemType>
-      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagement\VstsModuleManagement.pssproj</ProjectName>
-      <CreatedDate>2018-05-14T11:22:33.6081438-07:00</CreatedDate>
-      <ViewedBy>joirwi</ViewedBy>
-    </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT1M21.1872711S" EditActiveTime="PT0S">
+    <DevTrackerDataItem ViewActiveTime="PT1M14.5642627S" EditActiveTime="PT0S">
       <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
       <EditedCount>0</EditedCount>
       <ViewedCount>1</ViewedCount>
-      <Item>VstsModuleManagementCore\VstsModuleManagementCore.csproj</Item>
+      <Item>C:\Program Files\WindowsPowerShell\Modules\PSReadline\1.2\PSReadLine.psm1</Item>
       <ItemType>ProjectItem</ItemType>
-      <ProjectName>VstsModuleManagementCore\VstsModuleManagementCore.csproj</ProjectName>
-      <CreatedDate>2018-05-14T15:41:25.2870976-07:00</CreatedDate>
+      <ProjectName />
+      <CreatedDate>2018-05-16T11:00:15.1529778-07:00</CreatedDate>
       <ViewedBy>joirwi</ViewedBy>
     </DevTrackerDataItem>
   </LastSessionTimeList>
   <TotalTimeList>
-    <DevTrackerDataItem ViewActiveTime="PT1M16.8035413S" EditActiveTime="PT9M53.081556S">
-      <ModifiedDate>2018-05-14T15:54:54.6930947-07:00</ModifiedDate>
+    <DevTrackerDataItem ViewActiveTime="PT2M12.882601S" EditActiveTime="PT18M4.7620611S">
+      <ModifiedDate>2018-05-15T09:43:58.9397167-07:00</ModifiedDate>
       <ModifiedBy>joirwi</ModifiedBy>
-      <EditedCount>1</EditedCount>
-      <ViewedCount>1</ViewedCount>
+      <EditedCount>2</EditedCount>
+      <ViewedCount>2</ViewedCount>
       <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\Cmdlets\AddVstsPackageSource.cs</Item>
       <ItemType>ProjectItem</ItemType>
       <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\VstsModuleManagementCore.csproj</ProjectName>
@@ -200,6 +58,137 @@
       <ItemType>ProjectItem</ItemType>
       <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\VstsModuleManagementCore.csproj</ProjectName>
       <CreatedDate>2018-05-14T15:40:47.7771103-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT22.0386852S" EditActiveTime="PT0.0649607S">
+      <ModifiedDate>2018-05-15T09:47:57.4663758-07:00</ModifiedDate>
+      <ModifiedBy>joirwi</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\Resources\CommonStrings.resx</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\VstsModuleManagementCore.csproj</ProjectName>
+      <CreatedDate>2018-05-15T09:47:38.6587102-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT3M24.1090349S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>4</ViewedCount>
+      <Item>Debug Mode</Item>
+      <ItemType>DebugModeItem</ItemType>
+      <ProjectName />
+      <CreatedDate>2018-05-15T14:41:20.424593-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT1M22.9787917S" EditActiveTime="PT18M15.5018927S">
+      <ModifiedDate>2018-05-15T13:41:17.852813-07:00</ModifiedDate>
+      <ModifiedBy>joirwi</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\Utilities\JsonConverters\DictionaryStringStringConverter.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\VstsModuleManagementCore.csproj</ProjectName>
+      <CreatedDate>2018-05-15T13:09:20.8837309-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT1M52.7517939S" EditActiveTime="PT16M1.2268258S">
+      <ModifiedDate>2018-05-15T12:54:15.5950993-07:00</ModifiedDate>
+      <ModifiedBy>joirwi</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\Utilities\FileUtilities.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\VstsModuleManagementCore.csproj</ProjectName>
+      <CreatedDate>2018-05-15T12:20:28.2948219-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT10.5784486S" EditActiveTime="PT5M31.4825831S">
+      <ModifiedDate>2018-05-15T10:35:28.4395003-07:00</ModifiedDate>
+      <ModifiedBy>joirwi</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\Cmdlets\FindVstsModule.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\VstsModuleManagementCore.csproj</ProjectName>
+      <CreatedDate>2018-05-15T10:25:28.0014254-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT43.9840611S" EditActiveTime="PT16M56.9941303S">
+      <ModifiedDate>2018-05-15T11:15:55.341691-07:00</ModifiedDate>
+      <ModifiedBy>joirwi</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\Cmdlets\GetVstsCredential.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\VstsModuleManagementCore.csproj</ProjectName>
+      <CreatedDate>2018-05-15T10:52:15.2956659-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT9M59.9892643S" EditActiveTime="PT12M12.1386388S">
+      <ModifiedDate>2018-05-16T09:31:21.1538654-07:00</ModifiedDate>
+      <ModifiedBy>joirwi</ModifiedBy>
+      <EditedCount>2</EditedCount>
+      <ViewedCount>2</ViewedCount>
+      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\Cmdlets\Credentials\GetVstsCredential.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\VstsModuleManagementCore.csproj</ProjectName>
+      <CreatedDate>2018-05-15T14:31:26.0396126-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT34.5368646S" EditActiveTime="PT2M54.8625461S">
+      <ModifiedDate>2018-05-15T10:20:39.0647704-07:00</ModifiedDate>
+      <ModifiedBy>joirwi</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\Cmdlets\GetVstsPackageSources.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\VstsModuleManagementCore.csproj</ProjectName>
+      <CreatedDate>2018-05-15T10:16:58.2249148-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT8M23.9773981S" EditActiveTime="PT2M58.6573661S">
+      <ModifiedDate>2018-05-16T10:55:51.0996927-07:00</ModifiedDate>
+      <ModifiedBy>joirwi</ModifiedBy>
+      <EditedCount>3</EditedCount>
+      <ViewedCount>4</ViewedCount>
+      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\Cmdlets\Repository\GetVstsPackageSources.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\VstsModuleManagementCore.csproj</ProjectName>
+      <CreatedDate>2018-05-15T15:13:33.1033344-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT12.5025191S" EditActiveTime="PT3M7.5974067S">
+      <ModifiedDate>2018-05-15T10:25:03.0644771-07:00</ModifiedDate>
+      <ModifiedBy>joirwi</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\Cmdlets\JoinVstsPackageSourceWithCredential.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\VstsModuleManagementCore.csproj</ProjectName>
+      <CreatedDate>2018-05-15T10:21:32.7396264-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT43.0477877S" EditActiveTime="PT16.8248949S">
+      <ModifiedDate>2018-05-16T10:53:21.554701-07:00</ModifiedDate>
+      <ModifiedBy>joirwi</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>2</ViewedCount>
+      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\Cmdlets\Credentials\JoinVstsPackageSourceWithCredential.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\VstsModuleManagementCore.csproj</ProjectName>
+      <CreatedDate>2018-05-15T15:21:16.5085779-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT13.495921S" EditActiveTime="PT1M35.0212742S">
+      <ModifiedDate>2018-05-15T12:18:37.9071424-07:00</ModifiedDate>
+      <ModifiedBy>joirwi</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\Utilities\JsonUtilities.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\VstsModuleManagementCore.csproj</ProjectName>
+      <CreatedDate>2018-05-15T12:16:59.3155303-07:00</CreatedDate>
       <ViewedBy>joirwi</ViewedBy>
     </DevTrackerDataItem>
     <DevTrackerDataItem ViewActiveTime="PT3.0045031S" EditActiveTime="PT16.7130142S">
@@ -233,15 +222,70 @@
       <CreatedDate>2018-05-14T11:18:59.2238282-07:00</CreatedDate>
       <ViewedBy>joirwi</ViewedBy>
     </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT25.3094615S" EditActiveTime="PT1.8368711S">
-      <ModifiedDate>2018-05-14T11:43:37.5158324-07:00</ModifiedDate>
+    <DevTrackerDataItem ViewActiveTime="PT1M40.2782189S" EditActiveTime="PT1M55.8216965S">
+      <ModifiedDate>2018-05-15T12:41:02.360532-07:00</ModifiedDate>
       <ModifiedBy>joirwi</ModifiedBy>
       <EditedCount>1</EditedCount>
       <ViewedCount>1</ViewedCount>
+      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\Models\ModuleRunTimeState.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\VstsModuleManagementCore.csproj</ProjectName>
+      <CreatedDate>2018-05-15T09:34:37.9501303-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT4M29.6024884S" EditActiveTime="PT17M53.0704124S">
+      <ModifiedDate>2018-05-15T13:41:55.7040322-07:00</ModifiedDate>
+      <ModifiedBy>joirwi</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\Models\ModuleSettings.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\VstsModuleManagementCore.csproj</ProjectName>
+      <CreatedDate>2018-05-15T08:58:44.2776816-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT2M15.3458479S" EditActiveTime="PT1.8368711S">
+      <ModifiedDate>2018-05-14T11:43:37.5158324-07:00</ModifiedDate>
+      <ModifiedBy>joirwi</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>2</ViewedCount>
       <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagement\ModuleSettings.json</Item>
       <ItemType>ProjectItem</ItemType>
       <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagement\VstsModuleManagement.pssproj</ProjectName>
       <CreatedDate>2018-05-14T11:43:27.0426045-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT53.7760063S" EditActiveTime="PT0.046972S">
+      <ModifiedDate>2018-05-15T09:42:28.1607941-07:00</ModifiedDate>
+      <ModifiedBy>joirwi</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\Resources\ModuleVariables.resx</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\VstsModuleManagementCore.csproj</ProjectName>
+      <CreatedDate>2018-05-15T09:41:36.4077968-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT34.7300575S" EditActiveTime="PT1M56.7435511S">
+      <ModifiedDate>2018-05-15T10:42:16.8067849-07:00</ModifiedDate>
+      <ModifiedBy>joirwi</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\Extensions\MSCoreLibExtentions.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\VstsModuleManagementCore.csproj</ProjectName>
+      <CreatedDate>2018-05-15T10:39:55.4771967-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT31.1966974S" EditActiveTime="PT1M47.145758S">
+      <ModifiedDate>2018-05-15T15:02:53.1111362-07:00</ModifiedDate>
+      <ModifiedBy>joirwi</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\Models\ParameterCollection.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\VstsModuleManagementCore.csproj</ProjectName>
+      <CreatedDate>2018-05-15T11:01:04.9138746-07:00</CreatedDate>
       <ViewedBy>joirwi</ViewedBy>
     </DevTrackerDataItem>
     <DevTrackerDataItem ViewActiveTime="PT42.632814S" EditActiveTime="PT30.8987656S">
@@ -255,15 +299,90 @@
       <CreatedDate>2018-05-14T15:55:20.0740931-07:00</CreatedDate>
       <ViewedBy>joirwi</ViewedBy>
     </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT55.3764677S" EditActiveTime="PT44.2750083S">
-      <ModifiedDate>2018-05-14T15:58:17.8103742-07:00</ModifiedDate>
+    <DevTrackerDataItem ViewActiveTime="PT6M0.3119293S" EditActiveTime="PT24M6.8016074S">
+      <ModifiedDate>2018-05-16T10:52:40.5781039-07:00</ModifiedDate>
       <ModifiedBy>joirwi</ModifiedBy>
-      <EditedCount>1</EditedCount>
-      <ViewedCount>1</ViewedCount>
+      <EditedCount>3</EditedCount>
+      <ViewedCount>4</ViewedCount>
       <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\Extensions\PSCmdletExtensions.cs</Item>
       <ItemType>ProjectItem</ItemType>
       <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\VstsModuleManagementCore.csproj</ProjectName>
       <CreatedDate>2018-05-14T15:56:33.6076718-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT1M43.2360703S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>2</ViewedCount>
+      <Item>C:\Program Files\WindowsPowerShell\Modules\PSReadline\1.2\PSReadLine.psm1</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName />
+      <CreatedDate>2018-05-16T10:26:24.8836645-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT13M27.5021061S" EditActiveTime="PT23M53.2854992S">
+      <ModifiedDate>2018-05-16T10:50:12.8688826-07:00</ModifiedDate>
+      <ModifiedBy>joirwi</ModifiedBy>
+      <EditedCount>2</EditedCount>
+      <ViewedCount>3</ViewedCount>
+      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\Utilities\PSUtils.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\VstsModuleManagementCore.csproj</ProjectName>
+      <CreatedDate>2018-05-15T09:30:15.7426806-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT1M25.9123353S" EditActiveTime="PT4M53.4124189S">
+      <ModifiedDate>2018-05-15T14:25:50.1832364-07:00</ModifiedDate>
+      <ModifiedBy>joirwi</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\Cmdlets\ReadModuleSettings.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\VstsModuleManagementCore.csproj</ProjectName>
+      <CreatedDate>2018-05-15T12:08:18.1223271-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT2.8386645S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\Cmdlets\PrivateCommands\ReadModuleSettings.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\VstsModuleManagementCore.csproj</ProjectName>
+      <CreatedDate>2018-05-15T14:31:15.9295918-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT39.9036143S" EditActiveTime="PT8M46.5762159S">
+      <ModifiedDate>2018-05-15T10:02:22.2547773-07:00</ModifiedDate>
+      <ModifiedBy>joirwi</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\Cmdlets\RemoveVstsPackageSource.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\VstsModuleManagementCore.csproj</ProjectName>
+      <CreatedDate>2018-05-15T09:45:02.0658294-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT13.736517S" EditActiveTime="PT9M12.2107951S">
+      <ModifiedDate>2018-05-15T10:51:41.9655661-07:00</ModifiedDate>
+      <ModifiedBy>joirwi</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\Cmdlets\SaveVstsPat.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\VstsModuleManagementCore.csproj</ProjectName>
+      <CreatedDate>2018-05-15T10:36:12.156021-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT49.6675209S" EditActiveTime="PT25.6647856S">
+      <ModifiedDate>2018-05-15T15:22:13.1840166-07:00</ModifiedDate>
+      <ModifiedBy>joirwi</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\Cmdlets\Credentials\SaveVstsPat.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\VstsModuleManagementCore.csproj</ProjectName>
+      <CreatedDate>2018-05-15T15:08:33.4570217-07:00</CreatedDate>
       <ViewedBy>joirwi</ViewedBy>
     </DevTrackerDataItem>
     <DevTrackerDataItem ViewActiveTime="PT13.2000665S" EditActiveTime="PT5M5.2821295S">
@@ -299,54 +418,65 @@
       <CreatedDate>2018-05-14T12:19:13.2266808-07:00</CreatedDate>
       <ViewedBy>joirwi</ViewedBy>
     </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT56.7985177S" EditActiveTime="PT1M29.9524401S">
+    <DevTrackerDataItem ViewActiveTime="PT1M16.628786S" EditActiveTime="PT1M29.9524401S">
       <ModifiedDate>2018-05-14T12:44:20.830566-07:00</ModifiedDate>
       <ModifiedBy>joirwi</ModifiedBy>
       <EditedCount>1</EditedCount>
-      <ViewedCount>1</ViewedCount>
+      <ViewedCount>2</ViewedCount>
       <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagement\Objects\VstsModuleManagement.Objects.ModuleSettings.ps1</Item>
       <ItemType>ProjectItem</ItemType>
       <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagement\VstsModuleManagement.pssproj</ProjectName>
       <CreatedDate>2018-05-14T12:22:05.7833045-07:00</CreatedDate>
       <ViewedBy>joirwi</ViewedBy>
     </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT2M57.1633867S" EditActiveTime="PT2M58.2977639S">
-      <ModifiedDate>2018-05-14T14:36:17.0212318-07:00</ModifiedDate>
+    <DevTrackerDataItem ViewActiveTime="PT9M24.0886641S" EditActiveTime="PT4M1.4780276S">
+      <ModifiedDate>2018-05-16T09:33:16.4721027-07:00</ModifiedDate>
       <ModifiedBy>joirwi</ModifiedBy>
-      <EditedCount>1</EditedCount>
-      <ViewedCount>1</ViewedCount>
+      <EditedCount>3</EditedCount>
+      <ViewedCount>3</ViewedCount>
       <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagement\VstsModuleManagement.psd1</Item>
       <ItemType>ProjectItem</ItemType>
       <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagement\VstsModuleManagement.pssproj</ProjectName>
       <CreatedDate>2018-05-14T10:40:03.4201755-07:00</CreatedDate>
       <ViewedBy>joirwi</ViewedBy>
     </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT16M39.3533381S" EditActiveTime="PT52M55.043803S">
-      <ModifiedDate>2018-05-14T15:15:29.9688411-07:00</ModifiedDate>
+    <DevTrackerDataItem ViewActiveTime="PT19M51.5606425S" EditActiveTime="PT56M5.6869666S">
+      <ModifiedDate>2018-05-15T11:02:46.6026327-07:00</ModifiedDate>
       <ModifiedBy>joirwi</ModifiedBy>
-      <EditedCount>1</EditedCount>
-      <ViewedCount>1</ViewedCount>
+      <EditedCount>2</EditedCount>
+      <ViewedCount>2</ViewedCount>
       <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagement\VstsModuleManagement.psm1</Item>
       <ItemType>ProjectItem</ItemType>
       <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagement\VstsModuleManagement.pssproj</ProjectName>
       <CreatedDate>2018-05-14T10:39:48.3790797-07:00</CreatedDate>
       <ViewedBy>joirwi</ViewedBy>
     </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT6M34.7312773S" EditActiveTime="PT7M33.9867239S">
-      <ModifiedDate>2018-05-14T15:02:06.7193935-07:00</ModifiedDate>
+    <DevTrackerDataItem ViewActiveTime="PT23.1831637S" EditActiveTime="PT1.2335369S">
+      <ModifiedDate>2018-05-15T11:19:12.7053508-07:00</ModifiedDate>
       <ModifiedBy>joirwi</ModifiedBy>
       <EditedCount>1</EditedCount>
       <ViewedCount>1</ViewedCount>
+      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagement\VstsModuleManagement.pssproj</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName />
+      <CreatedDate>2018-05-15T11:19:02.0705165-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT7M18.4552345S" EditActiveTime="PT8M39.8568118S">
+      <ModifiedDate>2018-05-15T14:19:44.4881047-07:00</ModifiedDate>
+      <ModifiedBy>joirwi</ModifiedBy>
+      <EditedCount>2</EditedCount>
+      <ViewedCount>2</ViewedCount>
       <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagement\VstsModuleManagement.StartUp.ps1</Item>
       <ItemType>ProjectItem</ItemType>
       <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagement\VstsModuleManagement.pssproj</ProjectName>
       <CreatedDate>2018-05-14T11:22:33.6081438-07:00</CreatedDate>
       <ViewedBy>joirwi</ViewedBy>
     </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT1M21.1872711S" EditActiveTime="PT0S">
+    <DevTrackerDataItem ViewActiveTime="PT10M49.9286112S" EditActiveTime="PT0S">
       <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
       <EditedCount>0</EditedCount>
-      <ViewedCount>1</ViewedCount>
+      <ViewedCount>2</ViewedCount>
       <Item>VstsModuleManagementCore\VstsModuleManagementCore.csproj</Item>
       <ItemType>ProjectItem</ItemType>
       <ProjectName>VstsModuleManagementCore\VstsModuleManagementCore.csproj</ProjectName>
@@ -355,6 +485,509 @@
     </DevTrackerDataItem>
   </TotalTimeList>
   <HistoryTimeList>
+    <DevTrackerDataItem ViewActiveTime="PT1M14.560261S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Program Files\WindowsPowerShell\Modules\PSReadline\1.2\PSReadLine.psm1</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName />
+      <CreatedDate>2018-05-16T11:00:15.1529778-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT13.02821S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>Debug Mode</Item>
+      <ItemType>DebugModeItem</ItemType>
+      <ProjectName />
+      <CreatedDate>2018-05-16T11:00:04.882657-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT2M16.0083529S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\Cmdlets\Repository\GetVstsPackageSources.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\VstsModuleManagementCore.csproj</ProjectName>
+      <CreatedDate>2018-05-16T10:57:52.5892907-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT14.5394721S" EditActiveTime="PT16.8248949S">
+      <ModifiedDate>2018-05-16T10:53:21.554701-07:00</ModifiedDate>
+      <ModifiedBy>joirwi</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\Cmdlets\Credentials\JoinVstsPackageSourceWithCredential.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\VstsModuleManagementCore.csproj</ProjectName>
+      <CreatedDate>2018-05-16T10:52:55.0709591-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT59.7904837S" EditActiveTime="PT1.4950997S">
+      <ModifiedDate>2018-05-16T10:55:51.0996927-07:00</ModifiedDate>
+      <ModifiedBy>joirwi</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\Cmdlets\Repository\GetVstsPackageSources.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\VstsModuleManagementCore.csproj</ProjectName>
+      <CreatedDate>2018-05-16T10:52:43.7472236-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT38.9076057S" EditActiveTime="PT1M52.2316159S">
+      <ModifiedDate>2018-05-16T10:52:40.5781039-07:00</ModifiedDate>
+      <ModifiedBy>joirwi</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\Extensions\PSCmdletExtensions.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\VstsModuleManagementCore.csproj</ProjectName>
+      <CreatedDate>2018-05-16T10:49:53.783242-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT25.3257528S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>Debug Mode</Item>
+      <ItemType>DebugModeItem</ItemType>
+      <ProjectName />
+      <CreatedDate>2018-05-16T10:49:15.6378965-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT2M3.0442768S" EditActiveTime="PT3.4457984S">
+      <ModifiedDate>2018-05-16T10:50:12.8688826-07:00</ModifiedDate>
+      <ModifiedBy>joirwi</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\Utilities\PSUtils.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\VstsModuleManagementCore.csproj</ProjectName>
+      <CreatedDate>2018-05-16T10:48:29.6552465-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT28.6768084S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Program Files\WindowsPowerShell\Modules\PSReadline\1.2\PSReadLine.psm1</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName />
+      <CreatedDate>2018-05-16T10:26:24.8836645-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT1M7.0536582S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>Debug Mode</Item>
+      <ItemType>DebugModeItem</ItemType>
+      <ProjectName />
+      <CreatedDate>2018-05-16T10:26:14.5506653-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT57.8794666S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\Extensions\PSCmdletExtensions.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\VstsModuleManagementCore.csproj</ProjectName>
+      <CreatedDate>2018-05-16T10:24:46.4190522-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT9M28.7413401S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>VstsModuleManagementCore\VstsModuleManagementCore.csproj</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>VstsModuleManagementCore\VstsModuleManagementCore.csproj</ProjectName>
+      <CreatedDate>2018-05-16T09:43:01.7069211-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT3M1.7235651S" EditActiveTime="PT2M23.919718S">
+      <ModifiedDate>2018-05-16T10:18:24.2010804-07:00</ModifiedDate>
+      <ModifiedBy>joirwi</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\Cmdlets\Repository\GetVstsPackageSources.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\VstsModuleManagementCore.csproj</ProjectName>
+      <CreatedDate>2018-05-16T09:34:15.5195598-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT10.5874424S" EditActiveTime="PT8.6157971S">
+      <ModifiedDate>2018-05-16T09:33:16.4721027-07:00</ModifiedDate>
+      <ModifiedBy>joirwi</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagement\VstsModuleManagement.psd1</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagement\VstsModuleManagement.pssproj</ProjectName>
+      <CreatedDate>2018-05-16T09:33:02.040887-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT2M0.6349771S" EditActiveTime="PT22.3544807S">
+      <ModifiedDate>2018-05-16T09:31:21.1538654-07:00</ModifiedDate>
+      <ModifiedBy>joirwi</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\Cmdlets\Credentials\GetVstsCredential.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\VstsModuleManagementCore.csproj</ProjectName>
+      <CreatedDate>2018-05-16T09:30:29.9206669-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT5M19.1449055S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\Utilities\PSUtils.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\VstsModuleManagementCore.csproj</ProjectName>
+      <CreatedDate>2018-05-16T09:28:34.9204628-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT28.5083156S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\Cmdlets\Credentials\JoinVstsPackageSourceWithCredential.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\VstsModuleManagementCore.csproj</ProjectName>
+      <CreatedDate>2018-05-15T15:21:16.5085779-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT2M6.4559973S" EditActiveTime="PT33.2425484S">
+      <ModifiedDate>2018-05-15T15:29:49.1031975-07:00</ModifiedDate>
+      <ModifiedBy>joirwi</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\Cmdlets\Repository\GetVstsPackageSources.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\VstsModuleManagementCore.csproj</ProjectName>
+      <CreatedDate>2018-05-15T15:13:33.1033344-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT49.6675209S" EditActiveTime="PT25.6647856S">
+      <ModifiedDate>2018-05-15T15:22:13.1840166-07:00</ModifiedDate>
+      <ModifiedBy>joirwi</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\Cmdlets\Credentials\SaveVstsPat.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\VstsModuleManagementCore.csproj</ProjectName>
+      <CreatedDate>2018-05-15T15:08:33.4570217-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT1M38.7014139S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>Debug Mode</Item>
+      <ItemType>DebugModeItem</ItemType>
+      <ProjectName />
+      <CreatedDate>2018-05-15T14:41:20.424593-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT7M59.3542872S" EditActiveTime="PT11M49.7841581S">
+      <ModifiedDate>2018-05-15T15:25:18.2717266-07:00</ModifiedDate>
+      <ModifiedBy>joirwi</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\Cmdlets\Credentials\GetVstsCredential.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\VstsModuleManagementCore.csproj</ProjectName>
+      <CreatedDate>2018-05-15T14:31:26.0396126-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT2.8386645S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\Cmdlets\PrivateCommands\ReadModuleSettings.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\VstsModuleManagementCore.csproj</ProjectName>
+      <CreatedDate>2018-05-15T14:31:15.9295918-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT1M22.9787917S" EditActiveTime="PT18M15.5018927S">
+      <ModifiedDate>2018-05-15T13:41:17.852813-07:00</ModifiedDate>
+      <ModifiedBy>joirwi</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\Utilities\JsonConverters\DictionaryStringStringConverter.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\VstsModuleManagementCore.csproj</ProjectName>
+      <CreatedDate>2018-05-15T13:09:20.8837309-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT1M52.7517939S" EditActiveTime="PT16M1.2268258S">
+      <ModifiedDate>2018-05-15T12:54:15.5950993-07:00</ModifiedDate>
+      <ModifiedBy>joirwi</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\Utilities\FileUtilities.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\VstsModuleManagementCore.csproj</ProjectName>
+      <CreatedDate>2018-05-15T12:20:28.2948219-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT13.495921S" EditActiveTime="PT1M35.0212742S">
+      <ModifiedDate>2018-05-15T12:18:37.9071424-07:00</ModifiedDate>
+      <ModifiedBy>joirwi</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\Utilities\JsonUtilities.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\VstsModuleManagementCore.csproj</ProjectName>
+      <CreatedDate>2018-05-15T12:16:59.3155303-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT1M25.9123353S" EditActiveTime="PT4M53.4124189S">
+      <ModifiedDate>2018-05-15T14:25:50.1832364-07:00</ModifiedDate>
+      <ModifiedBy>joirwi</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\Cmdlets\ReadModuleSettings.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\VstsModuleManagementCore.csproj</ProjectName>
+      <CreatedDate>2018-05-15T12:08:18.1223271-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT43.7239572S" EditActiveTime="PT1M5.8700879S">
+      <ModifiedDate>2018-05-15T14:19:44.4881047-07:00</ModifiedDate>
+      <ModifiedBy>joirwi</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagement\VstsModuleManagement.StartUp.ps1</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagement\VstsModuleManagement.pssproj</ProjectName>
+      <CreatedDate>2018-05-15T12:07:04.2503977-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT1M50.0363864S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagement\ModuleSettings.json</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagement\VstsModuleManagement.pssproj</ProjectName>
+      <CreatedDate>2018-05-15T11:19:26.4902431-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT23.1831637S" EditActiveTime="PT1.2335369S">
+      <ModifiedDate>2018-05-15T11:19:12.7053508-07:00</ModifiedDate>
+      <ModifiedBy>joirwi</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagement\VstsModuleManagement.pssproj</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName />
+      <CreatedDate>2018-05-15T11:19:02.0705165-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT6M16.337835S" EditActiveTime="PT54.5644666S">
+      <ModifiedDate>2018-05-15T14:29:58.5695959-07:00</ModifiedDate>
+      <ModifiedBy>joirwi</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagement\VstsModuleManagement.psd1</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagement\VstsModuleManagement.pssproj</ProjectName>
+      <CreatedDate>2018-05-15T11:16:51.4854869-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT31.1966974S" EditActiveTime="PT1M47.145758S">
+      <ModifiedDate>2018-05-15T15:02:53.1111362-07:00</ModifiedDate>
+      <ModifiedBy>joirwi</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\Models\ParameterCollection.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\VstsModuleManagementCore.csproj</ProjectName>
+      <CreatedDate>2018-05-15T11:01:04.9138746-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT43.9840611S" EditActiveTime="PT16M56.9941303S">
+      <ModifiedDate>2018-05-15T11:15:55.341691-07:00</ModifiedDate>
+      <ModifiedBy>joirwi</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\Cmdlets\GetVstsCredential.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\VstsModuleManagementCore.csproj</ProjectName>
+      <CreatedDate>2018-05-15T10:52:15.2956659-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT34.7300575S" EditActiveTime="PT1M56.7435511S">
+      <ModifiedDate>2018-05-15T10:42:16.8067849-07:00</ModifiedDate>
+      <ModifiedBy>joirwi</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\Extensions\MSCoreLibExtentions.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\VstsModuleManagementCore.csproj</ProjectName>
+      <CreatedDate>2018-05-15T10:39:55.4771967-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT13.736517S" EditActiveTime="PT9M12.2107951S">
+      <ModifiedDate>2018-05-15T10:51:41.9655661-07:00</ModifiedDate>
+      <ModifiedBy>joirwi</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\Cmdlets\SaveVstsPat.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\VstsModuleManagementCore.csproj</ProjectName>
+      <CreatedDate>2018-05-15T10:36:12.156021-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT10.5784486S" EditActiveTime="PT5M31.4825831S">
+      <ModifiedDate>2018-05-15T10:35:28.4395003-07:00</ModifiedDate>
+      <ModifiedBy>joirwi</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\Cmdlets\FindVstsModule.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\VstsModuleManagementCore.csproj</ProjectName>
+      <CreatedDate>2018-05-15T10:25:28.0014254-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT12.5025191S" EditActiveTime="PT3M7.5974067S">
+      <ModifiedDate>2018-05-15T10:25:03.0644771-07:00</ModifiedDate>
+      <ModifiedBy>joirwi</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\Cmdlets\JoinVstsPackageSourceWithCredential.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\VstsModuleManagementCore.csproj</ProjectName>
+      <CreatedDate>2018-05-15T10:21:32.7396264-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT34.5368646S" EditActiveTime="PT2M54.8625461S">
+      <ModifiedDate>2018-05-15T10:20:39.0647704-07:00</ModifiedDate>
+      <ModifiedBy>joirwi</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\Cmdlets\GetVstsPackageSources.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\VstsModuleManagementCore.csproj</ProjectName>
+      <CreatedDate>2018-05-15T10:16:58.2249148-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT22.0386852S" EditActiveTime="PT0.0649607S">
+      <ModifiedDate>2018-05-15T09:47:57.4663758-07:00</ModifiedDate>
+      <ModifiedBy>joirwi</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\Resources\CommonStrings.resx</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\VstsModuleManagementCore.csproj</ProjectName>
+      <CreatedDate>2018-05-15T09:47:38.6587102-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT39.9036143S" EditActiveTime="PT8M46.5762159S">
+      <ModifiedDate>2018-05-15T10:02:22.2547773-07:00</ModifiedDate>
+      <ModifiedBy>joirwi</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\Cmdlets\RemoveVstsPackageSource.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\VstsModuleManagementCore.csproj</ProjectName>
+      <CreatedDate>2018-05-15T09:45:02.0658294-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT3M12.2073044S" EditActiveTime="PT3M10.6431636S">
+      <ModifiedDate>2018-05-15T11:02:46.6026327-07:00</ModifiedDate>
+      <ModifiedBy>joirwi</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagement\VstsModuleManagement.psm1</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagement\VstsModuleManagement.pssproj</ProjectName>
+      <CreatedDate>2018-05-15T09:44:18.5853075-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT53.7760063S" EditActiveTime="PT0.046972S">
+      <ModifiedDate>2018-05-15T09:42:28.1607941-07:00</ModifiedDate>
+      <ModifiedBy>joirwi</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\Resources\ModuleVariables.resx</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\VstsModuleManagementCore.csproj</ProjectName>
+      <CreatedDate>2018-05-15T09:41:36.4077968-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT1M40.2782189S" EditActiveTime="PT1M55.8216965S">
+      <ModifiedDate>2018-05-15T12:41:02.360532-07:00</ModifiedDate>
+      <ModifiedBy>joirwi</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\Models\ModuleRunTimeState.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\VstsModuleManagementCore.csproj</ProjectName>
+      <CreatedDate>2018-05-15T09:34:37.9501303-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT6M5.3139223S" EditActiveTime="PT23M49.8397008S">
+      <ModifiedDate>2018-05-15T15:15:23.0318027-07:00</ModifiedDate>
+      <ModifiedBy>joirwi</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\Utilities\PSUtils.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\VstsModuleManagementCore.csproj</ProjectName>
+      <CreatedDate>2018-05-15T09:30:15.7426806-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT56.0790597S" EditActiveTime="PT8M11.6805051S">
+      <ModifiedDate>2018-05-15T09:43:58.9397167-07:00</ModifiedDate>
+      <ModifiedBy>joirwi</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\Cmdlets\AddVstsPackageSource.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\VstsModuleManagementCore.csproj</ProjectName>
+      <CreatedDate>2018-05-15T09:13:06.0931281-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT4M29.6024884S" EditActiveTime="PT17M53.0704124S">
+      <ModifiedDate>2018-05-15T13:41:55.7040322-07:00</ModifiedDate>
+      <ModifiedBy>joirwi</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\Models\ModuleSettings.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\VstsModuleManagementCore.csproj</ProjectName>
+      <CreatedDate>2018-05-15T08:58:44.2776816-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT19.8302683S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagement\Objects\VstsModuleManagement.Objects.ModuleSettings.ps1</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagement\VstsModuleManagement.pssproj</ProjectName>
+      <CreatedDate>2018-05-15T08:58:24.7252523-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT3M28.1483893S" EditActiveTime="PT21M30.2949832S">
+      <ModifiedDate>2018-05-15T14:25:19.5608471-07:00</ModifiedDate>
+      <ModifiedBy>joirwi</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\Extensions\PSCmdletExtensions.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>C:\Source\GitHub\UTM-Online\VstsPowerShellModuleManagement\VstsPowerShellModuleManagement\VstsModuleManagement\VstsModuleManagementCore\VstsModuleManagementCore.csproj</ProjectName>
+      <CreatedDate>2018-05-15T08:57:41.8217025-07:00</CreatedDate>
+      <ViewedBy>joirwi</ViewedBy>
+    </DevTrackerDataItem>
     <DevTrackerDataItem ViewActiveTime="PT55.3774674S" EditActiveTime="PT44.2750083S">
       <ModifiedDate>2018-05-14T15:58:17.8103742-07:00</ModifiedDate>
       <ModifiedBy>joirwi</ModifiedBy>

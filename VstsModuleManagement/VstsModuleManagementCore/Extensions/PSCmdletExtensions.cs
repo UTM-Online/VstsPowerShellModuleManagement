@@ -10,19 +10,9 @@
 
     public static class PSCmdletExtensions
     {
-        public static void SaveModuleConfiguration(this PSCmdlet cmdlet, ModuleSettings settings = null)
+        public static ModuleSettings GetRunTimeModuleSettings(this PSCmdlet cmdlet)
         {
-            if (settings == null)
-            {
-                settings = PSUtils.GetPSVariable<ModuleSettings>(ModuleVariables.ModuleSettings);
-            }
-
-            settings.SaveSettings(ModuleRunTimeState.ModuleBasePath);
-        }
-
-        public static ModuleSettings GetModuleSettings(this PSCmdlet cmdlet)
-        {
-            return PSUtils.GetPSVariable<ModuleSettings>(ModuleVariables.ModuleSettings);
+            return cmdlet.GetPsVariable<ModuleSettings>(ModuleVariables.ModuleSettings);
         }
 
         public static Dictionary<string, object> CreateParameterDictionary(

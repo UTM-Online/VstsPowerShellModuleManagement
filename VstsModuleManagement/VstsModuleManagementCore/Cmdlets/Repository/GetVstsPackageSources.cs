@@ -3,18 +3,25 @@
     using System.Collections.Generic;
     using System.Management.Automation;
 
+    using VstsModuleManagementCore.Extensions;
+    using VstsModuleManagementCore.Models.ReturnObjects;
     using VstsModuleManagementCore.Utilities;
 
-    [Cmdlet("Get", "VstsPackageSources")]
+    [Cmdlet(VerbsCommon.Get, "VstsPackageSources")]
     public class GetVstsPackageSources : PSCmdlet
     {
         protected override void ProcessRecord()
         {
-            var parameters = new Dictionary<string, object> { { "Name", "*-VstsModules" } };
+            var results = PSUtils.InvokePSCommand<dynamic>("Get-PackageSource", this.CreateParameterDictionary("Name", "*-VstsModules"));
 
-            var results = PSUtils.InvokePSCommand<object>("Get-PackageSource", parameters);
+            List<PackageSource> sourcesList = new List<PackageSource>();
 
-            this.WriteObject(results, true);
+            foreach (var item in results)
+            {
+                sourcesList.Add(new PackageSource(item.Name, item.Location));
+            }
+
+            this.WriteObject(sourcesList, true);
         }
     }
 }

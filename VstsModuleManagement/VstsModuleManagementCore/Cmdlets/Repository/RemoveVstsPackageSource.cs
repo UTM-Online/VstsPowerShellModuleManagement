@@ -7,7 +7,7 @@
     using VstsModuleManagementCore.Resources;
     using VstsModuleManagementCore.Utilities;
 
-    [Cmdlet("Remove","VstsPackageSource")]
+    [Cmdlet(VerbsCommon.Remove,"VstsPackageSource")]
     public class RemoveVstsPackageSource : PSCmdlet
     {
         [Parameter]
@@ -22,18 +22,17 @@
 
             var parameters = new Dictionary<string, object>
                                  {
-                                     { "Name", providerName },
-                                     { "Confirm", false }
+                                     { "Name", providerName }
                                  };
 
             PSUtils.InvokePSCommand("Unregister-PackageSource", parameters);
 
-            var moduleSettings = this.GetModuleSettings();
+            var moduleSettings = this.GetRunTimeModuleSettings();
 
             if (moduleSettings.KnownVstsProviders.ContainsKey(providerName))
             {
                 moduleSettings.KnownVstsProviders.Remove(providerName);
-                this.SaveModuleConfiguration(moduleSettings);
+                moduleSettings.SaveSettings();
             }
             else
             {

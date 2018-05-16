@@ -11,39 +11,6 @@
 
     public static class PSUtils
     {
-        public static T GetPSVariable<T>(string name)
-        {
-            object variable = null;
-
-            using (var ps = PSUtils.CreateShell())
-            {
-                if (ps.Runspace.RunspaceStateInfo.State != RunspaceState.Opened)
-                {
-                    ps.Runspace.Open();
-                }
-
-                variable = ps.Runspace.SessionStateProxy.GetVariable(name);
-                ps.Runspace.Close();
-            }
-
-
-            return (T)variable;
-        }
-
-        public static void SetPSVariable<T>(string name, T input)
-        {
-            using (var ps = CreateShell())
-            {
-                if (ps.Runspace.RunspaceStateInfo.State != RunspaceState.Opened)
-                {
-                    ps.Runspace.Open();
-                }
-
-                ps.Runspace.SessionStateProxy.SetVariable(name, input);
-                ps.Runspace.Close();
-            }
-        }
-
         public static PowerShell CreateShell()
         {
             return PowerShell.Create(RunspaceMode.CurrentRunspace);

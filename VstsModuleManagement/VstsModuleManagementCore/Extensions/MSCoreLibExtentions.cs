@@ -1,5 +1,7 @@
 ﻿namespace VstsModuleManagementCore.Extensions
 {
+    using System;
+    using System.Collections.Generic;
     using System.Security;
 
     public static class MSCoreLibExtentions
@@ -18,6 +20,15 @@
             outputSecureString.MakeReadOnly();
 
             return outputSecureString;
+        }
+
+        public static Dictionary<string, object> AddParameter(
+            this Dictionary<string, object> parameters,
+            string key,
+            object value)
+        {
+            parameters.Add(key, value);
+            return parameters;
         }
     }
 }

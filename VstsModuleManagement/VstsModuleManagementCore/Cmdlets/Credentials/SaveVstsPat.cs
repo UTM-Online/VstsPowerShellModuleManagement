@@ -8,7 +8,7 @@
     using VstsModuleManagementCore.Models;
     using VstsModuleManagementCore.Utilities;
 
-    [Cmdlet("Save", "VstsPat")]
+    [Cmdlet(VerbsData.Save, "VstsPat")]
     public class SaveVstsPat : PSCmdlet
     {
         [Parameter]
