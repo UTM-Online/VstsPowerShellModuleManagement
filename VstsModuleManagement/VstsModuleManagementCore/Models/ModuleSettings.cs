@@ -26,15 +26,22 @@
 
         internal void SaveSettings(string filePath)
         {
-            string serializedSettings = JsonConvert.SerializeObject(this);
+            string serializedSettings = JsonConvert.SerializeObject(this, Formatting.Indented);
 
             File.WriteAllText(filePath, serializedSettings);
         }
 
+#if DEBUG
+        public void SaveSettings()
+        {
+            this.SaveSettings($"{ModuleRunTimeState.ModuleBasePath}\\ModuleSettings.json");
+        }
+#else
         internal void SaveSettings()
         {
             this.SaveSettings($"{ModuleRunTimeState.ModuleBasePath}\\ModuleSettings.json");
         }
+#endif
 
         internal static ModuleSettings LoadSettings()
         {

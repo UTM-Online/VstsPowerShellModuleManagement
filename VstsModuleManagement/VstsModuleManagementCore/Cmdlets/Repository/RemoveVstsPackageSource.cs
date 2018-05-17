@@ -8,7 +8,7 @@
     using VstsModuleManagementCore.Utilities;
 
     [Cmdlet(VerbsCommon.Remove,"VstsPackageSource")]
-    public class RemoveVstsPackageSource : PSCmdlet
+    public class RemoveVstsPackageSource : AbstractBaseCmdlet
     {
         [Parameter]
         public string AccountName { get; set; }
@@ -16,7 +16,7 @@
         [Parameter]
         public string PackageRepositoryName { get; set; }
 
-        protected override void ProcessRecord()
+        protected override void ProcessCommand()
         {
             var providerName = $"{this.AccountName}-{this.PackageRepositoryName}-{CommonStrings.VstsProviderSufix}";
 

@@ -8,9 +8,9 @@
     using VstsModuleManagementCore.Utilities;
 
     [Cmdlet(VerbsCommunications.Read, "ModuleSettings")]
-    public class ReadModuleSettings : PSCmdlet
+    public class ReadModuleSettings : AbstractBaseCmdlet
     {
-        protected override void ProcessRecord()
+        protected override void ProcessCommand()
         {
             var moduleSettings = ModuleSettings.LoadSettings();
 

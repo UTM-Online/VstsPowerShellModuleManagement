@@ -9,7 +9,7 @@
     using VstsModuleManagementCore.Utilities;
 
     [Cmdlet(VerbsCommon.Add, "VstsPackageSource", SupportsShouldProcess = true)]
-    public class AddVstsPackageSource : PSCmdlet
+    public class AddVstsPackageSource : AbstractBaseCmdlet
     {
         [Parameter]
         public string AccountName { get; set; }
@@ -25,7 +25,7 @@
 
         private string regexPattern = @"(?:Package Source)\s'(.*)'\s(?:exists\.)";
 
-        protected override void ProcessRecord()
+        protected override void ProcessCommand()
         {
             string location = $"https://{this.AccountName}.pkgs.visualstudio.com/_packaging/{this.PackageRepositoryName}/nuget/v2";
 

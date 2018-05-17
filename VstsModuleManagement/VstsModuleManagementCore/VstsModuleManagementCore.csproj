@@ -40,14 +40,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cmdlets\AbstractBaseCmdlet.cs" />
     <Compile Include="Cmdlets\Repository\AddVstsPackageSource.cs" />
     <Compile Include="Cmdlets\Packages\FindVstsModule.cs" />
-    <Compile Include="Cmdlets\Credentials\GetVstsCredential.cs" />
+    <Compile Include="Cmdlets\Credentials\GetVstsCredentialCmdlet.cs" />
     <Compile Include="Cmdlets\Repository\GetVstsPackageSources.cs" />
-    <Compile Include="Cmdlets\Credentials\JoinVstsPackageSourceWithCredential.cs" />
+    <Compile Include="Cmdlets\Credentials\JoinVstsPackageSourceWithCredentialCmdlet.cs" />
     <Compile Include="Cmdlets\PrivateCommands\ReadModuleSettings.cs" />
     <Compile Include="Cmdlets\Repository\RemoveVstsPackageSource.cs" />
-    <Compile Include="Cmdlets\Credentials\SaveVstsPat.cs" />
+    <Compile Include="Cmdlets\Credentials\SaveVstsCredentialCmdlet.cs" />
     <Compile Include="Extensions\MSCoreLibExtentions.cs" />
     <Compile Include="Extensions\PSCmdletExtensions.cs" />
     <Compile Include="Models\ModuleRunTimeState.cs" />

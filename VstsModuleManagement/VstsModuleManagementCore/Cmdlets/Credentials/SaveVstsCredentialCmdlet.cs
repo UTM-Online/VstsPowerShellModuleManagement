@@ -8,8 +8,8 @@
     using VstsModuleManagementCore.Models;
     using VstsModuleManagementCore.Utilities;
 
-    [Cmdlet(VerbsData.Save, "VstsPat")]
-    public class SaveVstsPat : PSCmdlet
+    [Cmdlet(VerbsData.Save, "VstsCredential")]
+    public class SaveVstsCredentialCmdlet : AbstractBaseCmdlet
     {
         [Parameter]
         public string UserUpn { get; set; }
@@ -20,12 +20,12 @@
         [Parameter]
         public string AccountName { get; set; }
 
-        protected override void BeginProcessing()
+        protected override void BeginProcessingCommand()
         {
             this.AccountName = this.AccountName.ToUpper();
         }
 
-        protected override void ProcessRecord()
+        protected override void ProcessCommand()
         {
             SecureString password = this.PAT.ConvertToSecureString();
 

@@ -5,12 +5,11 @@
     using System.IO;
     using System.Management.Automation;
 
-    using VstsModuleManagementCore.Extensions;
     using VstsModuleManagementCore.Models;
     using VstsModuleManagementCore.Utilities;
 
     [Cmdlet(VerbsCommon.Get, "VstsCredential")]
-    public class GetVstsCredential : PSCmdlet
+    public class GetVstsCredentialCmdlet : AbstractBaseCmdlet
     {
         [Parameter]
         public string UserUpn { get; set; }
@@ -21,7 +20,7 @@
         [Parameter]
         public SwitchParameter ReturnCredentialBlob { get; set; }
 
-        protected override void BeginProcessing()
+        protected override void BeginProcessingCommand()
         {
             if (!string.IsNullOrEmpty(this.AccountName))
             {
@@ -29,7 +28,7 @@
             }
         }
 
-        protected override void ProcessRecord()
+        protected override void ProcessCommand()
         {
             this.WriteVerbose("Entering ProcessRecord");
             if (this.ReturnCredentialBlob)

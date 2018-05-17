@@ -8,9 +8,9 @@
     using VstsModuleManagementCore.Utilities;
 
     [Cmdlet(VerbsCommon.Get, "VstsPackageSources")]
-    public class GetVstsPackageSources : PSCmdlet
+    public class GetVstsPackageSources : AbstractBaseCmdlet
     {
-        protected override void ProcessRecord()
+        protected override void ProcessCommand()
         {
             var results = PSUtils.InvokePSCommand<dynamic>("Get-PackageSource", this.CreateParameterDictionary("Name", "*-VstsModules"));
 
