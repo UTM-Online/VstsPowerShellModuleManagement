@@ -46,7 +46,15 @@
         internal static ModuleSettings LoadSettings()
         {
             string path = ModuleRunTimeState.ModuleBasePath;
-            return JsonUtilities.DeserializeFile<ModuleSettings>($"{path}\\ModuleSettings.json");
+
+            var settings = JsonUtilities.DeserializeFile<ModuleSettings>($"{path}\\ModuleSettings.json");
+
+            if (!(settings.KnownVstsProviders.Comparer == StringComparer.OrdinalIgnoreCase))
+            {
+                settings.KnownVstsProviders = new Dictionary<string, string>(settings.KnownVstsProviders, StringComparer.OrdinalIgnoreCase);
+            }
+
+            return settings;
         }
     }
 }

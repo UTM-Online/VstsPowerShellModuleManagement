@@ -15,10 +15,10 @@
 namespace VstsModuleManagementCore.Cmdlets.Packages
 {
     /// <summary>
-    /// Class Install_VstsModuleCmdlet.
+    /// Class InstallVstsModuleCmdlet.
     /// </summary>
     /// <seealso cref="AbstractBaseCmdlet" />
-    public class Install_VstsModuleCmdlet : AbstractBaseCmdlet
+    public class InstallVstsModuleCmdlet : AbstractBaseCmdlet
     {
         /// <summary>
         /// Processes the command.

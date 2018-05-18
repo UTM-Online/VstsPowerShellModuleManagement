@@ -41,6 +41,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Cmdlets\AbstractBaseCmdlet.cs" />
+    <Compile Include="Cmdlets\Credentials\RemoveVstsCredentialCmdlet.cs" />
+    <Compile Include="Cmdlets\Packages\Install-VstsModuleCmdlet.cs" />
+    <Compile Include="Cmdlets\Packages\UninstallVstsModuleCmdlet.cs" />
     <Compile Include="Cmdlets\Repository\AddVstsPackageSource.cs" />
     <Compile Include="Cmdlets\Packages\FindVstsModule.cs" />
     <Compile Include="Cmdlets\Credentials\GetVstsCredentialCmdlet.cs" />
@@ -68,6 +71,7 @@
     </Compile>
     <Compile Include="Utilities\FileUtilities.cs" />
     <Compile Include="Utilities\JsonConverters\DictionaryStringStringConverter.cs" />
+    <Compile Include="Utilities\JsonConverters\DictionaryStringStringCreationConverter.cs" />
     <Compile Include="Utilities\JsonUtilities.cs" />
     <Compile Include="Utilities\PSUtils.cs" />
   </ItemGroup>
@@ -83,6 +87,7 @@
     <EmbeddedResource Include="Resources\CommonStrings.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>CommonStrings.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\ModuleVariables.resx">
       <Generator>ResXFileCodeGenerator</Generator>

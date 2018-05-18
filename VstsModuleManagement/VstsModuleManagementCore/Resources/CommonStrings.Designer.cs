@@ -61,7 +61,7 @@ namespace VstsModuleManagementCore.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to -VstsModules.
+        ///   Looks up a localized string similar to VstsModules.
         /// </summary>
         internal static string VstsProviderSufix {
             get {
