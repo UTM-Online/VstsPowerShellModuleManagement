@@ -33,6 +33,11 @@
             }
         }
 
+        public static T GetValue<T>(this Dictionary<string, object> data, string key)
+        {
+            return (T)data[key];
+        }
+
         public static T GetPsVariable<T>(this PSCmdlet cmdlet, string name, object defaultValue = null)
         {
             return (T)cmdlet.GetVariableValue(name, defaultValue);

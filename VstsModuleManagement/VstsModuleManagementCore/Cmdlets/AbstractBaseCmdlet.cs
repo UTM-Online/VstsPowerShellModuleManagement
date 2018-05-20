@@ -27,6 +27,17 @@ namespace VstsModuleManagementCore.Cmdlets
     /// <seealso cref="System.Management.Automation.PSCmdlet" />
     public abstract class AbstractBaseCmdlet : PSCmdlet
     {
+        protected AbstractBaseCmdlet()
+        {
+            this.PrivateCmdletData = new Dictionary<string, object>();
+        }
+
+        /// <summary>
+        /// Gets or sets the private cmdlet data.
+        /// </summary>
+        /// <value>The private cmdlet data.</value>
+        protected Dictionary<string,object> PrivateCmdletData { get; set; }
+
         /// <summary>
         ///     When overridden in the derived class, performs initialization
         ///     of command execution.
