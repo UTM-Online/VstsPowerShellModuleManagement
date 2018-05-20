@@ -25,6 +25,8 @@
 
         private string regexPattern = @"(?:Package Source)\s'(.*)'\s(?:exists\.)";
 
+        protected override bool CredentialsRequired => false;
+
         protected override void ProcessCommand()
         {
             string location = $"https://{this.AccountName}.pkgs.visualstudio.com/_packaging/{this.PackageRepositoryName}/nuget/v2";

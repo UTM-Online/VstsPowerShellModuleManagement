@@ -67,9 +67,11 @@ namespace VstsModuleManagementCore.Cmdlets.Packages
         [Parameter(ParameterSetName = "VersionRange")]
         public SwitchParameter Force { get; set; }
 
+        protected override bool CredentialsRequired => true;
+
         protected override void BeginProcessingCommand()
         {
-            var data = this.CreateParameterDictionary("Name", this.Name).AddParameter("Repository", this.Repository);
+            var data = this.CreateParameterDictionary("Name", this.Name).AddParameter("Repository", this.Repository).AddParameter("Credential", this.Creds);
 
             if (this.AllowClobber)
             {

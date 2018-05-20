@@ -32,6 +32,8 @@ namespace VstsModuleManagementCore.Cmdlets.Credentials
         [Parameter]
         public string AccountName { get; set; }
 
+        protected override bool CredentialsRequired => false;
+
         protected override void BeginProcessingCommand()
         {
             this.UserUpn = this.UserUpn.Replace('@', '_');

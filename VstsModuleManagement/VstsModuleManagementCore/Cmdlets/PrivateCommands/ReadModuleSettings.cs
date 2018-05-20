@@ -10,6 +10,8 @@
     [Cmdlet(VerbsCommunications.Read, "ModuleSettings")]
     public class ReadModuleSettings : AbstractBaseCmdlet
     {
+        protected override bool CredentialsRequired => false;
+
         protected override void ProcessCommand()
         {
             var moduleSettings = ModuleSettings.LoadSettings();

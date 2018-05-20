@@ -10,6 +10,8 @@
     [Cmdlet(VerbsCommon.Get, "VstsPackageSources")]
     public class GetVstsPackageSources : AbstractBaseCmdlet
     {
+        protected override bool CredentialsRequired => false;
+
         protected override void ProcessCommand()
         {
             var results = PSUtils.InvokePSCommand<dynamic>("Get-PackageSource", this.CreateParameterDictionary("Name", "*-VstsModules"));

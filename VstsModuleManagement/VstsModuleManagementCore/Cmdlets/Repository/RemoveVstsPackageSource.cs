@@ -16,6 +16,8 @@
         [Parameter]
         public string PackageRepositoryName { get; set; }
 
+        protected override bool CredentialsRequired => false;
+
         protected override void ProcessCommand()
         {
             var providerName = $"{this.AccountName}-{this.PackageRepositoryName}-{CommonStrings.VstsProviderSufix}";

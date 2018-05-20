@@ -20,6 +20,8 @@
         [Parameter]
         public string AccountName { get; set; }
 
+        protected override bool CredentialsRequired => false;
+
         protected override void BeginProcessingCommand()
         {
             this.AccountName = this.AccountName.ToUpper();

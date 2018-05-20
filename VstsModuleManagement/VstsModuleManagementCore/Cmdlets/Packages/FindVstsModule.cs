@@ -14,14 +14,14 @@
         [Parameter]
         public string Repository { get; set; }
 
+        protected override bool CredentialsRequired => true;
+
         protected override void ProcessCommand()
         {
-            var creds = PSUtils.ImportCredential(this.Repository);
-
             var parameters = new Dictionary<string, object>()
                                  {
                                      { "Repository", this.Repository },
-                                     { "Credentials", creds }
+                                     { "Credential", this.Creds }
                                  };
 
             if (this.Name != null)

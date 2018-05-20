@@ -44,6 +44,8 @@ namespace VstsModuleManagementCore.Cmdlets.PrivateCommands
 
         private int DeterminedCodePath;
 
+        protected override bool CredentialsRequired => false;
+
         protected override void BeginProcessingCommand()
         {
             if (this.AllVersions)

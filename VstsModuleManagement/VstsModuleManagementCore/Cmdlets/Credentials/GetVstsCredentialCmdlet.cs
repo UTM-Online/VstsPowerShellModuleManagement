@@ -20,6 +20,8 @@
         [Parameter]
         public SwitchParameter ReturnCredentialBlob { get; set; }
 
+        protected override bool CredentialsRequired => false;
+
         protected override void BeginProcessingCommand()
         {
             if (!string.IsNullOrEmpty(this.AccountName))

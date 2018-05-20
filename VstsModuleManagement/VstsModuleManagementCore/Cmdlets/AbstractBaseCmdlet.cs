@@ -16,10 +16,13 @@ namespace VstsModuleManagementCore.Cmdlets
 {
     using System;
     using System.Collections.Generic;
+    using System.Linq;
     using System.Management.Automation;
+    using System.Runtime.CompilerServices;
 
     using VstsModuleManagementCore.Models;
     using VstsModuleManagementCore.Resources;
+    using VstsModuleManagementCore.Utilities;
 
     /// <summary>
     ///     Class AbstractBaseCmdlet.
@@ -39,12 +42,34 @@ namespace VstsModuleManagementCore.Cmdlets
         protected Dictionary<string,object> PrivateCmdletData { get; set; }
 
         /// <summary>
+        /// Gets a value indicating whether [credentials required].
+        /// </summary>
+        /// <value><c>true</c> if [credentials required]; otherwise, <c>false</c>.</value>
+        protected abstract bool CredentialsRequired { get; }
+
+        /// <summary>
+        /// Gets the creds.
+        /// </summary>
+        /// <value>The creds.</value>
+        protected PSCredential Creds { get; private set; }
+
+        /// <summary>
         ///     When overridden in the derived class, performs initialization
         ///     of command execution.
         ///     Default implementation in the base class just returns.
         /// </summary>
         protected override sealed void BeginProcessing()
         {
+            if (this.CredentialsRequired)
+            {
+                if (this.MyInvocation.BoundParameters.ContainsKey("Repository"))
+                {
+                    var repositoryName = (string)this.MyInvocation.BoundParameters["Repository"];
+
+                    this.Creds = PSUtils.ImportCredential(repositoryName);
+                }
+            }
+
             this.BeginProcessingCommand();
         }
 

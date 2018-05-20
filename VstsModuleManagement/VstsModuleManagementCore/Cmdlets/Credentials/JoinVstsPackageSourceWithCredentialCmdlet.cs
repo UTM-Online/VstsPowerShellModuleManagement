@@ -15,6 +15,8 @@
         [Parameter]
         public string CredentialName { get; set; }
 
+        protected override bool CredentialsRequired => false;
+
         protected override void ProcessCommand()
         {
             ModuleSettings settings = this.GetRunTimeModuleSettings();
