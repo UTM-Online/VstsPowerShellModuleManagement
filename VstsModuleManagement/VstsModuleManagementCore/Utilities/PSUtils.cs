@@ -75,7 +75,7 @@
             {
                 var config = ModuleSettings.LoadSettings();
                 ps.AddCommand("Import-Clixml");
-                ps.AddParameter("Path", $"{ModuleRunTimeState.ModuleBasePath}\\{config.KnownVstsProviders[repositoryName]}");
+                ps.AddParameter("Path", $"{ModuleRunTimeState.CredentialsDirectoryPath}\\{config.KnownVstsProviders[repositoryName]}");
                 return ps.Invoke<PSCredential>().First();
             }
         }

@@ -61,6 +61,16 @@ namespace VstsModuleManagementCore.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] BlackListedCommands {
+            get {
+                object obj = ResourceManager.GetObject("BlackListedCommands", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to VstsModules.
         /// </summary>
         internal static string VstsProviderSufix {

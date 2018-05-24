@@ -44,6 +44,7 @@
     <Compile Include="Cmdlets\Credentials\RemoveVstsCredentialCmdlet.cs" />
     <Compile Include="Cmdlets\Packages\Install-VstsModuleCmdlet.cs" />
     <Compile Include="Cmdlets\Packages\UninstallVstsModuleCmdlet.cs" />
+    <Compile Include="Cmdlets\PrivateCommands\InitializeModuleCmdlet.cs" />
     <Compile Include="Cmdlets\Repository\AddVstsPackageSource.cs" />
     <Compile Include="Cmdlets\Packages\FindVstsModule.cs" />
     <Compile Include="Cmdlets\Credentials\GetVstsCredentialCmdlet.cs" />
@@ -54,6 +55,7 @@
     <Compile Include="Cmdlets\Credentials\SaveVstsCredentialCmdlet.cs" />
     <Compile Include="Extensions\MSCoreLibExtentions.cs" />
     <Compile Include="Extensions\PSCmdletExtensions.cs" />
+    <Compile Include="Models\BlackListedCommand.cs" />
     <Compile Include="Models\ModuleRunTimeState.cs" />
     <Compile Include="Models\ModuleSettings.cs" />
     <Compile Include="Models\ParameterCollection.cs" />
@@ -93,6 +95,9 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>ModuleVariables.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\BlackListedCommands.json" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

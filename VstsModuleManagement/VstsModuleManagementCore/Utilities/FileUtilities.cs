@@ -3,28 +3,29 @@
     using System;
     using System.IO;
     using System.Linq;
+    using System.Reflection;
 
-    public static class FileUtilities
+    using VstsModuleManagementCore.Extensions;
+
+    internal static class FileUtilities
     {
-        public static string DiscoverModuleBasePath()
+        private static string PsModuleRootPath => Environment.GetEnvironmentVariable("PSModulePath").Split(';').First(s => s.Contains(CurrentUser));
+
+        private static string CurrentUser => Environment.GetEnvironmentVariable("USERNAME");
+
+        internal static string DiscoverModuleBasePath()
         {
-            var currentUser = Environment.GetEnvironmentVariable("USERNAME");
+            string modulePath;
 
-            var pathToTest = Environment.GetEnvironmentVariable("PSModulePath")
-                                        .Split(';')
-                                        .First(s => s.Contains(currentUser));
-
-            string tempModulePath = null;
-
-            if (!string.IsNullOrEmpty(pathToTest))
+            if (!string.IsNullOrEmpty(PsModuleRootPath))
             {
-                if (Directory.Exists(pathToTest))
+                if (Directory.Exists(PsModuleRootPath))
                 {
-                    tempModulePath = $"{pathToTest}\\VstsModuleManagement";
+                    modulePath = $"{PsModuleRootPath}\\VstsModuleManagement";
                 }
                 else if (Directory.Exists($"{Environment.GetEnvironmentVariable("USERPROFILE")}\\Documents\\WindowsPowerShell\\Modules"))
                 {
-                    tempModulePath = $"{Environment.GetEnvironmentVariable("USERPROFILE")}\\Documents\\WindowsPowerShell\\Modules\\VstsModuleManagement";
+                    modulePath = $"{Environment.GetEnvironmentVariable("USERPROFILE")}\\Documents\\WindowsPowerShell\\Modules\\VstsModuleManagement";
                 }
                 else
                 {
@@ -35,7 +36,7 @@
             {
                 if (Directory.Exists($"{Environment.GetEnvironmentVariable("USERPROFILE")}\\Documents\\WindowsPowerShell\\Modules"))
                 {
-                    tempModulePath = $"{Environment.GetEnvironmentVariable("USERPROFILE")}\\Documents\\WindowsPowerShell\\Modules\\VstsModuleManagement";
+                    modulePath = $"{Environment.GetEnvironmentVariable("USERPROFILE")}\\Documents\\WindowsPowerShell\\Modules\\VstsModuleManagement";
                 }
                 else
                 {
@@ -43,7 +44,46 @@
                 }
             }
 
-            return tempModulePath;
+            return modulePath;
+        }
+
+        internal static string DiscoverModuleDataPath()
+        {
+            string moduleDataPath = null;
+
+            var configDirectoryName = "VstsModuleManagementData";
+
+            if (!string.IsNullOrEmpty(PsModuleRootPath))
+            {
+                if (Directory.Exists(PsModuleRootPath))
+                {
+                    var moduleDir = new DirectoryInfo(PsModuleRootPath);
+                    moduleDataPath = $"{moduleDir.Parent.FullName}\\{configDirectoryName}";
+                }
+            }
+
+            return moduleDataPath;
+        }
+
+        internal static UnmanagedMemoryStream GetUnmanagedMemoryStream(string resourceName)
+        {
+            var assembly = Assembly.GetExecutingAssembly();
+
+            var resourceNames = assembly.GetManifestResourceNames();
+
+            var resourceInternalName = resourceNames.SingleOrDefault(resource => resource.EndsWith(resourceName));
+
+            if (resourceInternalName != null)
+            {
+                return (UnmanagedMemoryStream)assembly.GetManifestResourceStream(resourceInternalName);
+            }
+            else
+            {
+                throw new ArgumentException($"A resource with the name {resourceName} was not found in the modules assembly.")
+                          {
+                              Data = { {"AvaliableResources", resourceNames.ToCommaSeperatedList()}}
+                          };
+            }
         }
     }
 }

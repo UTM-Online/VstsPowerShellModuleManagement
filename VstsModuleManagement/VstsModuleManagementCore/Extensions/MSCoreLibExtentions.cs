@@ -30,5 +30,25 @@
             parameters.Add(key, value);
             return parameters;
         }
+
+        public static string ToCommaSeperatedList(this string[] stringArray)
+        {
+            string returnString = string.Empty;
+
+            for (int i = 0; i < stringArray.Length; i++)
+            {
+                if (i < stringArray.Length)
+                {
+                    returnString += $"{stringArray[i]},";
+                }
+
+                if (i == stringArray.Length)
+                {
+                    returnString += $"{stringArray[i]}";
+                }
+            }
+
+            return returnString;
+        }
     }
 }

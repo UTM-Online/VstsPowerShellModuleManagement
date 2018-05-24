@@ -1,0 +1,12 @@
+{
+  "BlackListedCommands": [
+    {
+      "Name": "Initialize-Module",
+      "Reason": "Command for internal use only"
+    },
+    {
+      "Name": "Read-ModuleSettings",
+      "Reason": "Command for internal user only"
+    }
+  ]
+}

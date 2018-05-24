@@ -34,7 +34,7 @@
             PSCredential vstsCredential = new PSCredential(this.UserUpn, password);
 
             string fileSystemSafeUpn = this.UserUpn.Replace('@', '_');
-            string targetPath = $"{ModuleRunTimeState.ModuleBasePath}\\{fileSystemSafeUpn}-{this.AccountName}.vstscreds";
+            string targetPath = $"{ModuleRunTimeState.CredentialsDirectoryPath}\\{fileSystemSafeUpn}-{this.AccountName}.vstscreds";
 
             if (File.Exists(targetPath))
             {

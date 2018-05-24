@@ -5,6 +5,7 @@
     using System.IO;
     using System.Management.Automation;
 
+    using VstsModuleManagementCore.Extensions;
     using VstsModuleManagementCore.Models;
     using VstsModuleManagementCore.Utilities;
 
@@ -39,7 +40,7 @@
                 var fileSystemSafeUpn = this.UserUpn.Replace('@', '_');
                 this.WriteDebug($"File system Safe UPN is {fileSystemSafeUpn}");
 
-                var targetPath = $"{ModuleRunTimeState.ModuleBasePath}\\{fileSystemSafeUpn}-{this.AccountName}.vstscreds";
+                var targetPath = $"{this.GetRunTimeModuleSettings().CredentialStoragePath}\\{fileSystemSafeUpn}-{this.AccountName}.vstscreds";
                 this.WriteDebug($"Target path was determined to be {targetPath}");
 
                 if (File.Exists(targetPath))
@@ -55,7 +56,7 @@
             else
             {
                 this.WriteVerbose($"{nameof(this.ReturnCredentialBlob)} was not specified, enumerating all available credential blobs.");
-                var parameters = new ParameterCollection("Path", ModuleRunTimeState.ModuleBasePath).AddParameter("Filter", "*.vstscreds");
+                var parameters = new ParameterCollection("Path", this.GetRunTimeModuleSettings().CredentialStoragePath).AddParameter("Filter", "*.vstscreds");
 
                 this.WriteVerbose("Executing Get-ChildItem to enumerate all credential blobs");
                 var result = PSUtils.InvokePSCommand<FileInfo>("Get-ChildItem", parameters);
