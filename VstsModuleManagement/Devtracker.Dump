@@ -29,3 +29,15 @@ System.NotImplementedException: The method or operation is not implemented.
    at Microsoft.VisualStudio.Shell.ThreadHelper.Invoke[TResult](Func`1 method)
    at Microsoft.VisualStudio.Platform.WindowManagement.DTE.WindowBase.get_ProjectItem()
    at DevTracker.DevTrackerToolWinControl.WindowsEvents_WindowActivated(Window gotFocus, Window lostFocus) in C:\Users\KurtG\Documents\Visual Studio 2017\Projects\DevTracker\DevTracker\DevTrackerToolWinDteEvents.cs:line 475
+
+5/25/2018 12:49:05 PM :
+System.ArgumentException: The parameter is incorrect. (Exception from HRESULT: 0x80070057 (E_INVALIDARG))
+   at EnvDTE.ProjectItem.get_FileNames(Int16 index)
+   at DevTracker.Data.Solution.DevTrackerData.RenameItemAll(ProjectItem projectItem, String oldName) in C:\Users\KurtG\Documents\Visual Studio 2017\Projects\DevTracker\DevTracker\DevTrackerDataSolution.cs:line 463
+   at DevTracker.DevTrackerToolWinControl.ProjectItemsEvents_ItemRenamed(ProjectItem projectItem, String oldName) in C:\Users\KurtG\Documents\Visual Studio 2017\Projects\DevTracker\DevTracker\DevTrackerToolWinDteEvents.cs:line 415
+
+5/25/2018 12:49:05 PM :
+System.ArgumentException: The parameter is incorrect. (Exception from HRESULT: 0x80070057 (E_INVALIDARG))
+   at EnvDTE.ProjectItem.get_FileNames(Int16 index)
+   at DevTracker.Data.Solution.DevTrackerData.RenameItemAll(ProjectItem projectItem, String oldName) in C:\Users\KurtG\Documents\Visual Studio 2017\Projects\DevTracker\DevTracker\DevTrackerDataSolution.cs:line 463
+   at DevTracker.DevTrackerToolWinControl.ProjectItemsEvents_ItemRenamed(ProjectItem projectItem, String oldName) in C:\Users\KurtG\Documents\Visual Studio 2017\Projects\DevTracker\DevTracker\DevTrackerToolWinDteEvents.cs:line 415

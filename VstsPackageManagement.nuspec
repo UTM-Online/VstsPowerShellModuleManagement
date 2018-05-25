@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>VstsPackageManagement</id>
+        <version>0.1.1</version>
+        <title>VstsPackageManagement</title>
+        <authors>Josh Irwin</authors>
+        <owners>Josh Irwin</owners>
+        <projectUrl>https://github.com/UTM-Online/VstsPowerShellModuleManagement</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>A Module that acts as a proxy to the package management cmdlets by mapping credentials to repositories so you don't have to always include the credentials object.</description>
+    </metadata>
+    <files>
+        <file src="VstsModuleManagement\VstsModuleManagementCore\bin\Release\Newtonsoft.Json.dll" target="Newtonsoft.Json.dll" />
+        <file src="VstsModuleManagement\VstsModuleManagement\VstsModuleManagement.psd1" target="VstsModuleManagement.psd1" />
+        <file src="VstsModuleManagement\VstsModuleManagement\VstsModuleManagement.StartUp.ps1" target="VstsModuleManagement.StartUp.ps1" />
+        <file src="VstsModuleManagement\VstsModuleManagementCore\bin\Release\VstsModuleManagementCore.dll" target="VstsModuleManagementCore.dll" />
+    </files>
+</package>
