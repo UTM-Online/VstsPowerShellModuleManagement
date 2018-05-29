@@ -22,7 +22,7 @@
 RootModule = 'VstsModuleManagementCore.dll'
 
 # Version number of this module.
-ModuleVersion = <#= this.BuildNumber #>
+ModuleVersion = '<#= this.BuildNumber #>'
 
 # ID used to uniquely identify this module
 GUID = '1f36ecb4-282f-4b1c-b81d-e1433524bccc'
