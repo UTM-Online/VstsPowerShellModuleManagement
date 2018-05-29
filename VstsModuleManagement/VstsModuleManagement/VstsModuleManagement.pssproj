@@ -29,9 +29,11 @@
     <Content Include="ModuleSettings.json">
       <Generator>SettingsSingleFileGenerator</Generator>
     </Content>
+    <Content Include="VstsModuleManagement.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+    </Content>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="VstsModuleManagement.psd1" />
     <Compile Include="VstsModuleManagement.StartUp.ps1" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
