@@ -24,22 +24,24 @@ namespace VstsModuleManagementCore.Cmdlets.PrivateCommands
     /// Class UninstallVstsModuleCmdlet.
     /// </summary>
     /// <seealso cref="AbstractBaseCmdlet" />
-    [Cmdlet(VerbsLifecycle.Uninstall, "VstsModule")]
+    [Cmdlet(VerbsLifecycle.Uninstall, "VstsModule", DefaultParameterSetName = "All")]
     public class UninstallVstsModuleCmdlet : AbstractBaseCmdlet
     {
-        [Parameter(Mandatory = true)]
+        [Parameter(Mandatory = true, ParameterSetName = "All")]
+        [Parameter(Mandatory = true, ParameterSetName = "Range")]
+        [Parameter(Mandatory = true, ParameterSetName = "Single")]
         public string Name { get; set; }
 
-        [Parameter]
+        [Parameter(ParameterSetName = "All")]
         public SwitchParameter AllVersions { get; set; }
 
-        [Parameter]
+        [Parameter(ParameterSetName = "Range")]
         public Version MinimumVersion { get; set; }
 
-        [Parameter]
+        [Parameter(ParameterSetName = "Range")]
         public Version MaximumVersion { get; set; }
 
-        [Parameter]
+        [Parameter(ParameterSetName = "Single")]
         public Version RequiredVersion { get; set; }
 
         private int DeterminedCodePath;
@@ -100,7 +102,7 @@ namespace VstsModuleManagementCore.Cmdlets.PrivateCommands
 
                     {
                         this.WriteInformation("Your input is not understood.  Please see the help section on this cmdlet below.", null);
-                        param.Add("Name", "Uninstall-VstsModule");
+                        param["Name"] = "Uninstall-VstsModule";
                         this.WriteObject(PSUtils.InvokePSCommand<object>("Get-Help", param));
                         break;
                     }
