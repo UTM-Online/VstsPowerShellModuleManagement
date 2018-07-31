@@ -12,6 +12,8 @@
 // <summary></summary>
 // **********************************************************************
 
+using System.Collections.ObjectModel;
+
 namespace VstsModuleManagementCore.Cmdlets.Packages
 {
     using System;
@@ -27,7 +29,7 @@ namespace VstsModuleManagementCore.Cmdlets.Packages
     /// </summary>
     /// <seealso cref="AbstractBaseCmdlet" />
     [Cmdlet(VerbsLifecycle.Install, "VstsModule")]
-    public class InstallVstsModuleCmdlet : AbstractBaseCmdlet
+    public class InstallVstsModuleCmdlet : AbstractRepositoryCmdlet
     {
         [Parameter(ParameterSetName = "Default")]
         [Parameter(ParameterSetName = "VersionRange")]
@@ -42,10 +44,6 @@ namespace VstsModuleManagementCore.Cmdlets.Packages
 
         [Parameter(ParameterSetName = "VersionRange")]
         public Version MaximumVersion { get; set; }
-
-        [Parameter(ParameterSetName = "Default")]
-        [Parameter(ParameterSetName = "VersionRange")]
-        public string Repository { get; set; }
 
         [Parameter(ParameterSetName = "Default")]
         public Version RequiredVersion { get; set; }
@@ -69,7 +67,19 @@ namespace VstsModuleManagementCore.Cmdlets.Packages
 
         protected override bool CredentialsRequired => true;
 
-        protected override void BeginProcessingCommand()
+        protected override Collection<Attribute> RepositoryParameterOverride => new Collection<Attribute>
+        {
+            new ParameterAttribute
+            {
+                ParameterSetName = "Default"
+            },
+            new ParameterAttribute
+            {
+                ParameterSetName = "VersionRange"
+            }
+        };
+
+        protected override void BeginProcessingCmdlet()
         {
             var data = this.CreateParameterDictionary("Name", this.Name).AddParameter("Repository", this.Repository).AddParameter("Credential", this.Creds);
 

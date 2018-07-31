@@ -51,16 +51,12 @@
         {
             string moduleDataPath = null;
 
-            var configDirectoryName = "VstsModuleManagementData";
+            const string configDirectoryName = "VstsModuleManagementData";
 
-            if (!string.IsNullOrEmpty(PsModuleRootPath))
-            {
-                if (Directory.Exists(PsModuleRootPath))
-                {
-                    var moduleDir = new DirectoryInfo(PsModuleRootPath);
-                    moduleDataPath = $"{moduleDir.Parent.FullName}\\{configDirectoryName}";
-                }
-            }
+            if (string.IsNullOrEmpty(PsModuleRootPath)) return moduleDataPath;
+            if (!Directory.Exists(PsModuleRootPath)) return moduleDataPath;
+            var moduleDir = new DirectoryInfo(PsModuleRootPath);
+            moduleDataPath = $"{moduleDir.Parent.FullName}\\{configDirectoryName}";
 
             return moduleDataPath;
         }
@@ -77,13 +73,11 @@
             {
                 return (UnmanagedMemoryStream)assembly.GetManifestResourceStream(resourceInternalName);
             }
-            else
+
+            throw new ArgumentException($"A resource with the name {resourceName} was not found in the modules assembly.")
             {
-                throw new ArgumentException($"A resource with the name {resourceName} was not found in the modules assembly.")
-                          {
-                              Data = { {"AvaliableResources", resourceNames.ToCommaSeperatedList()}}
-                          };
-            }
+                Data = { {"AvaliableResources", resourceNames.ToCommaSeperatedList()}}
+            };
         }
     }
 }

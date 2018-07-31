@@ -12,6 +12,8 @@
 // <summary></summary>
 // **********************************************************************
 
+using System.Diagnostics.CodeAnalysis;
+
 namespace VstsModuleManagementCore.Cmdlets.PrivateCommands
 {
     using System;
@@ -20,11 +22,14 @@ namespace VstsModuleManagementCore.Cmdlets.PrivateCommands
     using VstsModuleManagementCore.Extensions;
     using VstsModuleManagementCore.Utilities;
 
+    /// <inheritdoc />
     /// <summary>
     /// Class UninstallVstsModuleCmdlet.
     /// </summary>
-    /// <seealso cref="AbstractBaseCmdlet" />
+    /// <seealso cref="T:VstsModuleManagementCore.Cmdlets.AbstractBaseCmdlet" />
     [Cmdlet(VerbsLifecycle.Uninstall, "VstsModule", DefaultParameterSetName = "All")]
+    [SuppressMessage("ReSharper", "UnusedMember.Global")]
+    [SuppressMessage("ReSharper", "MemberCanBePrivate.Global")]
     public class UninstallVstsModuleCmdlet : AbstractBaseCmdlet
     {
         [Parameter(Mandatory = true, ParameterSetName = "All")]
@@ -76,6 +81,7 @@ namespace VstsModuleManagementCore.Cmdlets.PrivateCommands
                 case 1:
 
                     {
+                        // ReSharper disable once HeapView.BoxingAllocation
                         param.Add("AllVersions", this.AllVersions);
                         PSUtils.InvokePSCommand("Uninstall-Module", param);
                         break;

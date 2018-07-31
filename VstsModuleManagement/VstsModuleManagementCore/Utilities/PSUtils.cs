@@ -50,22 +50,14 @@
             {
                 ps.AddCommand(cmdletName);
 
-                if (parameters != null)
+                if (parameters == null) return input == null ? ps.Invoke<T>() : ps.Invoke<T>(input);
+                
+                foreach (var param in parameters)
                 {
-                    foreach (var param in parameters)
-                    {
-                        ps.AddParameter(param.Key, param.Value);
-                    }
+                    ps.AddParameter(param.Key, param.Value);
                 }
 
-                if (input == null)
-                {
-                    return ps.Invoke<T>();
-                }
-                else
-                {
-                    return ps.Invoke<T>(input);
-                }
+                return input == null ? ps.Invoke<T>() : ps.Invoke<T>(input);
             }
         }
 

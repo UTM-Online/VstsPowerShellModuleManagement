@@ -6,13 +6,10 @@
     using VstsModuleManagementCore.Utilities;
 
     [Cmdlet(VerbsCommon.Find, "VstsModule")]
-    public class FindVstsModule : AbstractBaseCmdlet
+    public class FindVstsModule : AbstractRepositoryCmdlet
     {
         [Parameter]
         public string Name { get; set; }
-
-        [Parameter]
-        public string Repository { get; set; }
 
         protected override bool CredentialsRequired => true;
 

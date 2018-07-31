@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Cmdlets\AbstractBaseCmdlet.cs" />
+    <Compile Include="Cmdlets\AbstractRepositoryCmdlet.cs" />
     <Compile Include="Cmdlets\Credentials\RemoveVstsCredentialCmdlet.cs" />
     <Compile Include="Cmdlets\Packages\Install-VstsModuleCmdlet.cs" />
     <Compile Include="Cmdlets\Packages\UninstallVstsModuleCmdlet.cs" />
@@ -53,6 +54,7 @@
     <Compile Include="Cmdlets\PrivateCommands\ReadModuleSettings.cs" />
     <Compile Include="Cmdlets\Repository\RemoveVstsPackageSource.cs" />
     <Compile Include="Cmdlets\Credentials\SaveVstsCredentialCmdlet.cs" />
+    <Compile Include="Cmdlets\Repository\RepairPackageSourcesCmdlet.cs" />
     <Compile Include="Extensions\MSCoreLibExtentions.cs" />
     <Compile Include="Extensions\PSCmdletExtensions.cs" />
     <Compile Include="Models\BlackListedCommand.cs" />
